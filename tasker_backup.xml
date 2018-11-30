@@ -1,0 +1,95 @@
+<TaskerData sr="" dvi="1" tv="5.0u7m">
+	<Profile sr="prof3" ve="2">
+		<cdate>1543290111864</cdate>
+		<edate>1543372688154</edate>
+		<id>3</id>
+		<mid0>4</mid0>
+		<Day sr="con0">
+			<wday0>4</wday0>
+			<wday1>6</wday1>
+			<wday2>5</wday2>
+			<wday3>3</wday3>
+			<wday4>2</wday4>
+		</Day>
+		<Time sr="con1">
+			<fh>8</fh>
+			<fm>56</fm>
+			<th>8</th>
+			<tm>58</tm>
+		</Time>
+	</Profile>
+	<Profile sr="prof5" ve="2">
+		<cdate>1543367770801</cdate>
+		<edate>1543372489354</edate>
+		<flags>2</flags>
+		<id>5</id>
+		<limit>true</limit>
+		<mid0>6</mid0>
+		<Time sr="con0">
+			<fh>10</fh>
+			<fm>22</fm>
+			<rep>2</rep>
+			<repval>2</repval>
+			<th>11</th>
+			<tm>23</tm>
+		</Time>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1543196497347</cdate>
+		<mdate>1543372686586</mdate>
+		<name>基础</name>
+		<pids>3,5</pids>
+		<tids>4,6</tids>
+		<Img sr="icon" ve="2">
+			<nme>mw_action_home</nme>
+		</Img>
+	</Project>
+	<Task sr="task4">
+		<cdate>1543290116006</cdate>
+		<edate>1543372594958</edate>
+		<id>4</id>
+		<nme>daka</nme>
+		<Action sr="act0" ve="7">
+			<code>810772096</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>/storage/emulated/0/脚本/daka.js</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<path>/storage/emulated/0/脚本/daka.js</path>
+					<path-type>java.lang.String</path-type>
+					<script>&lt;null&gt;</script>
+					<script-type>java.lang.String</script-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.stardust.scriptdroid</Str>
+			<Str sr="arg2" ve="3">com.stardust.scriptdroid.external.tasker.PluginActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task6">
+		<cdate>1543367776543</cdate>
+		<edate>1543372149752</edate>
+		<id>6</id>
+		<nme>test</nme>
+		<Action sr="act0" ve="7">
+			<code>810772096</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>/storage/emulated/0/脚本/test.js</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<path>/storage/emulated/0/脚本/test.js</path>
+					<path-type>java.lang.String</path-type>
+					<script>&lt;null&gt;</script>
+					<script-type>java.lang.String</script-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.stardust.scriptdroid</Str>
+			<Str sr="arg2" ve="3">com.stardust.scriptdroid.external.tasker.PluginActivity</Str>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
