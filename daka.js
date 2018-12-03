@@ -88,12 +88,29 @@ function _menu() {
     _log('menu');
 }
 
+function _login() {
+    if (id('login_mode_pwd').exists()) {
+        var b = id("login_mode_pwd").findOne(5000).bounds();
+        Tap(b.centerX(), b.centerY());
+        id("et_phone_input").findOne(5000).setText('xxxxxx');
+        id("et_pwd_login").findOne(5000).setText('xxxxxx');
+        b = id("btn_next").findOne(5000).bounds();
+        Tap(b.centerX(), b.centerY());
+        _log('loginin');
+    }
+    else {
+        _log('loginined');
+    }
+}
+
 log('start');
 _wakeUp();
 _sleep(1000);
 _unLocking();
 _sleep(1000);
 _openApp();
+_sleep(10000);
+_login();
 _sleep(10000);
 _clickWork();
 _sleep(10000);
