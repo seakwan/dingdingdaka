@@ -41,14 +41,14 @@ function _clickQiandao() {
 
 function _upClick() {
     desc('上班打卡').waitFor();
-    var b = desc('上班打卡').bounds();
+    var b = desc('上班打卡').findOne().bounds();
     Tap(b.centerX(), b.centerY());
     _log('upclick');
 }
 
 function _downClick() {
     desc('下班打卡').waitFor();
-    var b = desc('下班打卡').bounds();
+    var b = desc('下班打卡').findOne().bounds();
     Tap(b.centerX(), b.centerY());
     _log('downclick');
 }
